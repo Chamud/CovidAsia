@@ -1,0 +1,1 @@
+web: gunicorn covidAsia.wsgi --log-file -
