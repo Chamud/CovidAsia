@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0cwvb)(0hjd0sg%-_^bbd$cb*nmxfb=+ywp@e2sb_ka-1#86tb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['covidasia.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['covidasia.herokuapp.com','covidasia-production.up.railway.app', '127.0.0.1']
 
 
 
